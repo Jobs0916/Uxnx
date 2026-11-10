@@ -1,8 +1,8 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pedantic -Werror
-CVERSION = -stdc99
+CVERSION = -std=c99
 
-run: main
+run: main.c
 	$(CC) $(CVERSION) main.c $(CFLAGS) -o main 
 
 clean:
