@@ -15,3 +15,7 @@ cm message:
 # Ejecuta una visualizacion del arbol de commit
 lodag:
     @git log --oneline --decorate --all --graph
+
+# Ejecuta el comando push de git
+push:
+    @git push
